@@ -8,9 +8,22 @@ A modern, feature-rich Flutter application for logistics and shipment tracking w
 
 ## 🌐 Live Demo
 
-**Try the app live:** [Logistics Demo Web App](https://logistics-demo-app-2024.web.app/)
+<div align="center">
+
+### ✨ Experience the App Live ✨
+
+🔗 **[Launch Logistics Demo Web App](https://logistics-demo-app-2024.web.app/)**
+
+Try our fully functional web version with all features enabled!
+
+</div>
 
 ## 📱 App Preview
+
+### 💻 Web Application
+<div style="display: flex; justify-content: center; margin-bottom: 20px;">
+  <img src="assets/screenshots/web_dashboard.png" alt="Web Dashboard" width="100%" />
+</div>
 
 ### 📸 Mobile Screenshots
 
