@@ -1,0 +1,147 @@
+{
+    "@@locale": "en",
+    
+    "@_APP_GENERAL": {},
+    "appTitle": "Logistics Demo",
+    "appSlogan": "On Time. Every Time",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "confirm": "Confirm",
+    "logout": "Logout",
+    "logoutTitle": "Confirm Logout",
+    "logoutMessage": "Are you sure you want to logout?",
+    "comingSoon": "{menuTitle} Coming Soon",
+    "@comingSoon": {
+        "description": "Message shown when a menu item feature is not yet available",
+        "placeholders": {
+            "menuTitle": {
+                "type": "String",
+                "example": "Reports"
+            }
+        }
+    },
+    
+    "@_DASHBOARD": {},
+    "dashboardTitle": "Dashboard",
+    "activityOverview": "Activity Overview",
+    "recentShipments": "Recent Shipments",
+    "createShipment": "Create Shipment",
+    "searchShipments": "Search Shipments",
+    "totalShipments": "Total Shipments",
+    "inTransitShipments": "In Transit",
+    "deliveredShipments": "Delivered",
+    "pendingShipments": "Pending",
+    "noShipmentsFound": "No shipments found",
+    "failedToLoadShipments": "Failed to load shipments",
+    "viewAll": "View All",
+    "allActiveShipments": "All Active Shipments",
+    "noPendingShipments": "No pending shipments",
+    
+    "@_LOGIN_SCREEN": {},
+    "loginTitle": "Login",
+    "emailLabel": "Email",
+    "emailHint": "Enter your email",
+    "passwordLabel": "Password",
+    "passwordHint": "Enter your password",
+    "loginButton": "Login",
+    "invalidCredentials": "Invalid email or password",
+    "generalError": "An error occurred. Please try again",
+    
+    "@_SEARCH_SCREEN": {},
+    "searchTitle": "Search Shipments",
+    "searchHint": "Enter tracking number or customer name (min. {minLength} characters)",
+    "@searchHint": {
+        "placeholders": {
+            "minLength": {
+                "type": "int"
+            }
+        }
+    },
+    "searchMinCharsMessage": "Enter at least {minLength} characters to search",
+    "@searchMinCharsMessage": {
+        "placeholders": {
+            "minLength": {
+                "type": "int"
+            }
+        }
+    },
+    "noShipmentsFound": "No shipments found",
+    "searchError": "Failed to search shipments",
+    "deleteSuccess": "Shipment deleted successfully",
+    "deleteError": "Failed to delete shipment",
+
+    "@_SHIPMENT_SCREENS": {},
+    "createShipmentTitle": "Create Shipment",
+    "customerInformation": "Customer Information",
+    "customerName": "Customer Name",
+    "customerNameHint": "Enter customer name",
+    "customerAddress": "Customer Address",
+    "customerAddressHint": "Enter customer address",
+    "customerMobile": "Customer Mobile",
+    "customerMobileHint": "Enter customer mobile number",
+    
+    "shipmentInformation": "Shipment Information",
+    "sourceLocation": "Source Location",
+    "sourceLocationHint": "Enter source location",
+    "destinationLocation": "Destination Location",
+    "destinationLocationHint": "Enter destination location",
+    
+    "driverInformation": "Driver Information",
+    "driverName": "Driver Name (Optional)",
+    "driverNameHint": "Enter driver name",
+    "driverMobile": "Driver Mobile (Optional)",
+    "driverMobileHint": "Enter driver mobile number",
+    
+    "createShipmentButton": "Create Shipment",
+    "shipmentCreatedSuccess": "Shipment created successfully",
+    "shipmentCreatedError": "Failed to create shipment",
+    "trackingNumber": "Tracking Number",
+
+    "@_SHIPMENT_DETAILS": {},
+    "shipmentDetailsTitle": "Shipment Details",
+    "shipmentStatus": "Status",
+    "shipmentDate": "Shipment Date",
+    "lastUpdated": "Last Updated",
+    "updateStatus": "Update Status",
+    "updateShipment": "Update Shipment",
+    "deleteShipment": "Delete Shipment",
+    "confirmDelete": "Are you sure you want to delete this shipment?",
+    "updateSuccess": "Shipment updated successfully",
+    "updateError": "Failed to update shipment",
+    "noShipmentFound": "No shipment found",
+    "backToList": "Back to List",
+
+    "@_SHIPMENT_STATUS": {},
+    "statusPending": "Pending",
+    "statusInTransit": "In Transit",
+    "statusDelivered": "Delivered",
+    "statusCancelled": "Cancelled",
+    "statusDescriptionPending": "Shipment registered",
+    "statusDescriptionInTransit": "In transit to destination",
+    "statusDescriptionDelivered": "Delivered to recipient",
+    "statusDescriptionCancelled": "Shipment cancelled",
+    "statusUpdateMessage": "Status updated to {status}",
+    "@statusUpdateMessage": {
+        "placeholders": {
+            "status": {
+                "type": "String"
+            }
+        }
+    },
+    
+    "@_VALIDATION_MESSAGES": {},
+    "enterEmail": "Please enter your email",
+    "enterPassword": "Please enter your password",
+    "enterCustomerName": "Please enter customer name",
+    "enterCustomerAddress": "Please enter customer address",
+    "enterCustomerMobile": "Please enter customer mobile",
+    "enterSourceLocation": "Please enter source location",
+    "enterDestinationLocation": "Please enter destination location",
+    "invalidEmail": "Please enter a valid email address",
+    "invalidMobile": "Please enter a valid mobile number"
+} 
