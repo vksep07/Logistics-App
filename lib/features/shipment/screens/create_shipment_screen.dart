@@ -287,12 +287,14 @@ class _CreateShipmentScreenState extends State<CreateShipmentScreen> {
         labelText: label,
         validator:
             validator ??
-            (value) {
-              if (value == null || value.isEmpty) {
-                return _getValidationMessage(validationKey ?? '');
-              }
-              return null;
-            },
+            (validationKey != null
+                ? (value) {
+                  if (value == null || value.isEmpty) {
+                    return _getValidationMessage(validationKey);
+                  }
+                  return null;
+                }
+                : null),
         isDesktop: isDesktop,
       ),
     );

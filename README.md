@@ -6,6 +6,21 @@ A modern, feature-rich Flutter application for logistics and shipment tracking w
 ![Platforms](https://img.shields.io/badge/Platforms-Android%20%7C%20iOS%20%7C%20Web%20%7C%20Desktop-green)
 ![License](https://img.shields.io/badge/License-MIT-purple)
 
+## 📱 App Preview
+
+### 📸 Mobile Screenshots
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 20px;">
+  <img src="assets/screenshots/login.png" alt="Login Screen" width="22%" />
+  <img src="assets/screenshots/mobile_dashboard.png" alt="Mobile Dashboard" width="22%" />
+  <img src="assets/screenshots/mobile_ship_details.png" alt="Shipment Details" width="22%" />
+  <img src="assets/screenshots/mobile_nav.png" alt="Navigation Menu" width="22%" />
+</div>
+
+### 🎥 Demo Video
+
+https://github.com/vksep07/Logistics-App/assets/videos/simulator_video_stt.mp4
+
 ## ✨ Key Features
 
 ### 📱 Cross-Platform Support

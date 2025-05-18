@@ -185,23 +185,26 @@ class _SearchScreenState extends State<SearchScreen> {
                         ),
                       ),
                     )
-                    : ShipmentTrackingList(
-                      shipments: _searchResults,
-                      onDelete: _handleDelete,
-                      onUpdate: _handleUpdate,
-                      onViewDetails: (shipment) {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder:
-                                (context) => ShipmentDetailsScreen(
-                                  shipment: shipment,
-                                  onShipmentUpdated:
-                                      () => _handleUpdate(shipment),
-                                ),
-                          ),
-                        );
-                      },
+                    : SingleChildScrollView(
+                      child: ShipmentTrackingList(
+                        shipments: _searchResults,
+                        onDelete: _handleDelete,
+                        onUpdate: _handleUpdate,
+                        isShowHeader: false,
+                        onViewDetails: (shipment) {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder:
+                                  (context) => ShipmentDetailsScreen(
+                                    shipment: shipment,
+                                    onShipmentUpdated:
+                                        () => _handleUpdate(shipment),
+                                  ),
+                            ),
+                          );
+                        },
+                      ),
                     ),
           ),
         ],

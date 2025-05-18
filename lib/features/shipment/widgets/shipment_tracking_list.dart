@@ -14,6 +14,7 @@ class ShipmentTrackingList extends StatelessWidget {
   final Function(ShipmentTracking) onDelete;
   final Function(ShipmentTracking) onUpdate;
   final Function(ShipmentTracking) onViewDetails;
+  final bool? isShowHeader;
 
   const ShipmentTrackingList({
     super.key,
@@ -21,6 +22,7 @@ class ShipmentTrackingList extends StatelessWidget {
     required this.onDelete,
     required this.onUpdate,
     required this.onViewDetails,
+    this.isShowHeader = true,
   });
 
   List<ShipmentTracking> get recentShipments {
@@ -65,6 +67,7 @@ class ShipmentTrackingList extends StatelessWidget {
 
     final recents = recentShipments;
     final cardBackgroundColor = Palette.cardBackgroundColor;
+    final isShowHeader = this.isShowHeader ?? true;
     return Container(
       margin: const EdgeInsets.only(top: 24),
       padding: const EdgeInsets.all(24),
@@ -76,7 +79,7 @@ class ShipmentTrackingList extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          if (!kIsWeb)
+          if (isShowHeader)
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
