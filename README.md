@@ -19,7 +19,7 @@ A modern, feature-rich Flutter application for logistics and shipment tracking w
 
 ### 🎥 Demo Video
 
-https://github.com/vksep07/Logistics-App/assets/videos/simulator_video_stt.mp4
+https://github.com/user-attachments/assets/5d4e5132-e067-4066-93d4-cd9059269f89
 
 ## ✨ Key Features
 
