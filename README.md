@@ -18,6 +18,13 @@ Try our fully functional web version with all features enabled!
 
 </div>
 
+## 🔐 Admin Login Credentials
+
+> **Important**: Use these credentials to access the full features of both web and mobile apps:
+>
+> - **Email:** `vksep07@gmail.com`
+> - **Password:** `vksep07`
+
 ## 📱 App Preview
 
 ### 💻 Web Application
