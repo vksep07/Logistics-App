@@ -23,7 +23,7 @@ Try our fully functional web version with all features enabled!
 ### 💻 Web Application
 <div style="display: flex; justify-content: center; margin-bottom: 20px;">
   <a href="https://logistics-demo-app-2024.web.app/" target="_blank">
-    <img src="https://logistics-demo-app-2024.web.app/assets/screenshots/web_dash.png" alt="Web Dashboard" width="100%" />
+    <img src="assets/screenshots/web_dash.png" alt="Web Dashboard" width="100%" />
   </a>
 </div>
 
