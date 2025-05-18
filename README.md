@@ -194,8 +194,4 @@ If you have any questions or need help, please:
 - Contact the maintainers
 - Check the documentation
 
-## 🙏 Acknowledgments
 
-- Flutter team for the amazing framework
-- Contributors who have helped improve the project
-- Open source community for various packages used in this project
